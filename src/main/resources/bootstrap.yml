@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: pms-gateway
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://192.168.102.131:6002/

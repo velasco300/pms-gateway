@@ -1,0 +1,16 @@
+server:
+  port: 6003
+spring:
+  profiles:
+    active: ${spring.cloud.config.profile}
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+logging:
+  path: logs
+  file: app.log
+
+
