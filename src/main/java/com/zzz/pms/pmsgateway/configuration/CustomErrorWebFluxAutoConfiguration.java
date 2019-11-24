@@ -1,6 +1,6 @@
 package com.zzz.pms.pmsgateway.configuration;
 
-import com.hqda.pms.pmsgateway.common.JsonErrorWebExceptionHandler;
+import com.zzz.pms.pmsgateway.common.JsonErrorWebExceptionHandler;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
