@@ -1,8 +1,6 @@
-server:
-  port: 6003
 spring:
   profiles:
-    active: ${spring.cloud.config.profile}
+    active: dev
   cloud:
     gateway:
       discovery:
