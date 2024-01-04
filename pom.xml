@@ -13,14 +13,15 @@
     <version>1.0.0</version>
 
     <properties>
-        <pms-generic.version>1.0.0</pms-generic.version>
+        <pms-dependencies.version>1.0.0</pms-dependencies.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.zzz.pms</groupId>
-            <artifactId>pms-generic</artifactId>
-            <version>${pms-generic.version}</version>
+            <artifactId>pms-dependencies</artifactId>
+            <version>${pms-dependencies.version}</version>
+            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
