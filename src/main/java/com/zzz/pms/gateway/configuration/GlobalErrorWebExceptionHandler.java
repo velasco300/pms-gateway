@@ -1,9 +1,9 @@
-package com.zzz.pms.pmsgateway.configuration;
+package com.zzz.pms.gateway.configuration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zzz.pms.pmsgeneric.common.CommonResult;
-import com.zzz.pms.pmsgeneric.exception.ExceptionItemEnum;
+import com.zzz.pms.generic.common.CommonResult;
+import com.zzz.pms.generic.exception.ExceptionItemEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

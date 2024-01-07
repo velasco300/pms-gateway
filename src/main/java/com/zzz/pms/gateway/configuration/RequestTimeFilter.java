@@ -1,8 +1,8 @@
-package com.zzz.pms.pmsgateway.configuration;
+package com.zzz.pms.gateway.configuration;
 
 import com.alibaba.cloud.commons.lang.StringUtils;
 import com.alibaba.nacos.shaded.com.google.common.base.Charsets;
-import com.zzz.pms.pmsgeneric.util.SpringUtils;
+import com.zzz.pms.generic.util.SpringUtils;
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.Tag;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.zzz.pms.pmsgateway;
+package com.zzz.pms.gateway;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;

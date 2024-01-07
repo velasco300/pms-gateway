@@ -6,7 +6,7 @@ spring:
       discovery:
         locator:
           enabled: true
-          lowerCaseServiceId: true
+          lower-case-service-id: true
 logging:
   path: logs
   file: app.log
