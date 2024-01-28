@@ -1,14 +1,12 @@
+server:
+  port: 6001
 spring:
-  profiles:
-    active: dev
+  application:
+    name: pms-gateway
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true
-logging:
-  path: logs
-  file: app.log
-
 
