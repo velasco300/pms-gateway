@@ -9,4 +9,14 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
-
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: dev
+        group: pms
+      config:
+        namespace: dev
+        group: pms
+  config:
+    import:
+      - optional:nacos:${spring.application.name}.yaml
